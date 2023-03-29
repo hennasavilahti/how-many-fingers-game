@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    background-color: lavender;
+    background-image: url("hansd2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-y: -50px;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+}
+
+h1 {
+    font-size: 90px;
+    color: blueviolet;
+}
+
+p{
+    line-height: 0cm;
+    color: black
+}
+
+#theGuess{
+    width: 60px;
+    height: 40px;
+    border: 4px solid blueviolet;
+    border-radius: 5%;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-size: 25px;
+}
+
+#submitButton{
+    width: 150px;
+    height: 60px;
+    background-color: rgba(168, 121, 212, 0.548);
+    border: none;
+    border-radius: 5%;
+    color: rgb(134, 27, 233);
+    font-family: "Anton";
+    font-size: 30px;
+    text-align: center;
+    padding: 5px 24px;
+    transition-duration: 0.2s;
+}
+
+#submitButton:hover{
+    background-color: rgba(168, 121, 212, 0.952);
+}
+
+#submitButton:active{
+    background-color: rgba(127, 211, 245, 0.849);
+    transition-duration: 0;
+}
