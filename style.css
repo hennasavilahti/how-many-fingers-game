@@ -2,7 +2,7 @@
 
 body {
   background-color: lavender;
-  background-image: url('hands.png');
+  background-image: url('./img/hands.png');
   background-repeat: no-repeat;
   background-position: bottom;
   background-position-y: -50px;
